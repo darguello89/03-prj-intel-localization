@@ -7,7 +7,7 @@
 }
 
 .timeline-card .card-img-top {
-	height: 190px;
+	height: clamp(160px, 24vw, 210px);
 	object-fit: cover;
 }
 
@@ -34,4 +34,21 @@
 
 .h4 .bi {
 	font-size: 1.1rem;
+}
+
+@media (max-width: 767.98px) {
+	.hero-text {
+		font-size: 1rem;
+	}
+
+	.newsletter-submit {
+		width: 100%;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.learn-more-link {
+		width: 100%;
+		text-align: center;
+	}
 }
