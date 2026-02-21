@@ -1,0 +1,37 @@
+.hero-logo {
+	max-width: 180px;
+}
+
+.hero-text {
+	max-width: 760px;
+}
+
+.timeline-card .card-img-top {
+	height: 190px;
+	object-fit: cover;
+}
+
+.timeline-card {
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.learn-more-link {
+	border-width: 2px;
+	font-weight: 600;
+	border-radius: 999px;
+	padding-inline: 1.25rem;
+}
+
+.learn-more-link:hover,
+.learn-more-link:focus {
+	transform: translateY(-1px);
+}
+
+.h4 .bi {
+	font-size: 1.1rem;
+}
